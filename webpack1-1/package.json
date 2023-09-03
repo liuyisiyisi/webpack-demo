@@ -1,0 +1,17 @@
+{
+  "name": "webpack1-1",
+  "version": "1.0.0",
+  "description": "npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
